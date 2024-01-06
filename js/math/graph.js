@@ -22,7 +22,6 @@ class Graph {
 
     removePoint(point){
         const segments = this.getSegmentsWithPoint(point);
-        console.log(segments)
 
         for (const segment of segments) {
             this.removeSegment(segment);
